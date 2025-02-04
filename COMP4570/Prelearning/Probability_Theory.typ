@@ -80,4 +80,3 @@ $
 "cov"[x,y] = EE_(x,y)[(x-EE[x])(y-EE[y])] = EE[x y] - EE[x] EE[y]. 
 $
 *Notation*. $"cov"[x] := "cov"[x,x]$. 
-
