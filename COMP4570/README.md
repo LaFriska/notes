@@ -1,6 +1,6 @@
 ## SML Notes
 
-Here are my notes for ANU's COMPO4670, Statistical Machine Learning. These notes do not contain perfectly precise mathematical rigour, and much of trivial intuitions are omitted. These notes are designed to be compact, and I prioritised convenience of my personal use rather than making it perfectly accessible to everyone.
+Here are my notes for ANU's COMPO4670, Statistical Machine Learning. These notes do not contain perfectly precise mathematical rigour, and much intuitions and explanations are omitted. I strongly advice against using these notes as your primary source of study, they should be kept as a convenient document to retrieve formulas and general steps of solving machine learning problems. These notes are designed to be compact, and I prioritised convenience of my personal use rather than making it perfectly accessible to everyone.
 
 ## Exercise Attempts
 
