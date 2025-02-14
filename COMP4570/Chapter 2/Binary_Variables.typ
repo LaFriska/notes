@@ -35,3 +35,30 @@ $
 EE[m] &= N mu\
 "var"[m] &= N mu (1-mu).
 $
+
+We now write a useful way of generalising the factorial to non-negative reals.
+
+*Definition.* The #emph([Gamma Distribution]) is given by the following
+$
+Gamma (x) = integral y^(x-1) e^(-y) space d y
+$
+It is easy to show that the Gamma distribution possesses the property 
+$Gamma(x)=x!$ for any $x in NN$. 
+
+For a Bayesian approach, we need to define a prior for $mu$. Due to various useful properties, we use the following. 
+
+*Definition*. Given hyper-parameters $a$ and $b$, the #emph([Beta Distribution]) is given by the following. 
+
+$
+"Beta"(mu|a,b)= (Gamma(a+b))/(Gamma(a)Gamma(b)) mu^(a-1) (1-mu)^(b-1)
+$
+
+We define the prior $p(mu)="Beta"(mu|a,b)$.
+
+The Beta distribution has the following properties.
+$
+integral_0^1 "Beta"(mu|a,b) space d mu &= 1.\
+EE[mu] &= a/(a+b)\
+"var"[mu] &= (a b)/((a+b)^2 (a+b+1))
+$
+The posterior can then be deduced by multiplying the beta function with the binomial likelihood, then normalising. 
