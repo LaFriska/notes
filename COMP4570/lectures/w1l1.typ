@@ -84,4 +84,18 @@ Phi(bold(x)) = mat(
 $
 where each $phi.alt$ defines a feature function. One example of this is $phi.alt_i = x^(i-1)$. 
 
-Then if we define $f_theta (x) = theta Phi(bold(x))$
+Then if we define $f_theta (x) = theta Phi(bold(x))$ then we have the closed-form solution $(Phi^T Phi)^(-1) Phi^T bold(y)$.
+
+== Regularisation
+
+The idea is to penalise the error function for having larger amplitude solutions. 
+
+$
+L_lambda (theta) = L(theta) + lambda||theta||_p^p 
+$
+== Hyperparameters
+Examples of hyperparameters include 
+- Degree of polynomial regression
+- Number of kernels in kernel methods 
+- Regularisation parameter 
+
